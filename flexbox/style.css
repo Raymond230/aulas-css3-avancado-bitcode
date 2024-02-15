@@ -1,27 +1,28 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container{
-  display: flex;
   background: #ddd;
   min-height: 100vh;
-  column-gap: 20px;
+  display: flex;
+  gap: 20px;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .item{
-    width: 200px;
-    height: 200px;
-    border: 1px solid #000;
-    background: #fff;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #103;
+  background: #fff;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
