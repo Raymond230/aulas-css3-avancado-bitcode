@@ -5,24 +5,25 @@
 }
 
 .container{
-  background: #ddd;
+  background: #000;
+  color: #000000;
   min-height: 100vh;
+  padding: 20px;
   display: flex;
   gap: 20px;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  align-items: center;  
+  flex-wrap: wrap; 
 }
 
 .item{
+  background: #fff;
   width: 200px;
   height: 200px;
-  border: 1px solid #103;
-  background: #fff;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border: 2px solid #ddd;
 }
+
+
+
 
 
