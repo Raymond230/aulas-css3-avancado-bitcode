@@ -1,0 +1,56 @@
+
+.descricao{ 
+    padding: 30px;
+    text-align: center;
+
+} 
+.esports{ 
+    display: flex; 
+    justify-content: space-between; 
+} 
+
+.secao-principal{ 
+    display: grid;
+     grid-template-columns: repeat(3, 280px); padding: 10px; gap: 1.25rem; }
+
+
+.secao-extra{
+
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.secao-extra p{
+    text-align: center;
+    padding: 5px;
+}
+
+
+.item{
+    border: 1px solid transparent;
+    border-radius: 14px;
+    padding: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.item:hover{
+    border-color: #000;
+}
+
+.esports h3, p{
+    padding: 5px;
+}
+
+
+.rodape a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
